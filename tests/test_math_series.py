@@ -14,7 +14,7 @@ def test_fib_life():
     assert actual == expected
 
 def test_lucas_life():
-    expected = 1
+    expected = 2
     actual = lucas(1)
     assert actual == expected
 
@@ -26,6 +26,11 @@ def test_sum_series_life():
 def test_fib_value():
     expected = 5
     actual = fibonacci(5)
+    assert actual == expected
+
+def test_lucas_value():
+    expected = 18
+    actual = lucas(7)
     assert actual == expected
 
 
