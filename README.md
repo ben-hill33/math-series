@@ -6,16 +6,15 @@
 
 #### Links and Resources
 
-Pull Request()
+[Pull Request](https://github.com/ben-hill33/math-series/compare/fibonacci?expand=1)
 
 #### Setup
 
 .env requirements (where applicable)
-i.e.
 
-**How to initialize/run your application (where applicable)**
+#### How to initialize/run your application (where applicable)
 
-**How to use your library (where applicable)**
+#### How to use your library (where applicable)
 
 #### Tests
 
