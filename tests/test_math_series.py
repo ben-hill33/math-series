@@ -6,7 +6,7 @@ def test_version():
     assert __version__ == '0.1.0'
 
 # tested whether expected and actual 
-# need to be 
+# need to be actual first like Roger had it. It doesn't
 
 def test_fib_life():
     expected = 0
