@@ -9,7 +9,7 @@ def fibonacci(n):
 
 def lucas(n):
     if n <= 0:
-        raise ValueError
+        return "Incorrect Input"
     elif n == 1:
         return 2
     elif n == 2:
