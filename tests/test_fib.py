@@ -1,5 +1,6 @@
 from math_series.modules.fib import (
     fib_recursive,
+    fib_refactor,
     dynamic_fib_bottom_up,
     dynamic_fib_top_down
 )
@@ -62,4 +63,28 @@ def test_top_down_zero():
 def test_top_down_10_return_55():
     expected = 55
     actual = fib_recursive(10)
+    assert actual == expected
+
+
+def test_fib_zero_return_zero():
+    expected = 0
+    actual = fib_refactor(0)
+    assert actual == expected
+
+
+def test_fib_one_return_one():
+    expected = 1
+    actual = fib_refactor(1)
+    assert actual == expected
+
+
+def test_fib_two_return_one():
+    expected = 1
+    actual = fib_refactor(2)
+    assert actual == expected
+
+
+def test_fib_three_return_two():
+    expected = 2
+    actual = fib_refactor(3)
     assert actual == expected

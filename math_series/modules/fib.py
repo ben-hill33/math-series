@@ -20,6 +20,13 @@ def fib_recursive(n):
         return fib_recursive(n-1) + fib_recursive(n-2)
 
 
+def fib_refactor(n):
+    if n <= 1:
+        return n
+    else:
+        return(fib_refactor(n-1) + fib_refactor(n-2))
+
+
 def dynamic_fib_bottom_up(n):
     if n == 0:
         return 0
