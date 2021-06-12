@@ -1,4 +1,4 @@
-
+#%%
 def fib_recursive(n):
     """
     Returns nth value in the fibonacci series recursively.
@@ -19,7 +19,7 @@ def fib_recursive(n):
     else:
         return fib_recursive(n-1) + fib_recursive(n-2)
 
-
+#%%
 def fib_refactor(n):
     if n <= 1:
         return n
@@ -44,6 +44,7 @@ def dynamic_fib_bottom_up(n):
     return table[n]
 
 
+#%%
 # Global so it's available to all dynamic_fib_top_down() calls
 memoize_top_down = {}
 
